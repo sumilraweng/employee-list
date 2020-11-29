@@ -23,7 +23,11 @@ graph RL
 A[json data -> employee-data.js ] -- async-await function --> B((vanilla js->####create-markup.js))
 C((CSS3 -> style.css))
 B --DOM Manipulation--> D(Index.html)
-C --Styling--> D
+|  |  |
+|--|--|
+|  |  |
+
+C --Styling--> D`enter code here`
 ```
 
 [LIVE DEMO](<[https://sumilraweng.github.io/employee-list/](https://sumilraweng.github.io/employee-list/)>)
