@@ -1,19 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="./style/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/index.css" />
 
-        <script src="./src/create-markup.js" defer></script>
-        <script src="./src/emloyee-data.js" defer></script>
+    <script src="./src/create-markup.js" defer></script>
+    <script src="./src/emloyee-data.js" defer></script>
 
-    </head>
+    <script
+      src="https://kit.fontawesome.com/4720d3065c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-    <body>
-        <div class="title">
-            <h1>Employee cards</h1>
-        </div> 
-    </body>
+  <body>
+    <header>
+      <div class="navigation-sec">
+        <!-- logo -->
+        <div class="logo-image">
+          <a href="./index.html" class="logo_link"
+            ><img src="./logo-images/logo.png" alt="sumil logo"
+          /></a>
+        </div>
+        <!-- Navigation tab -->
+        <nav class="navigation-tab">
+          <ul class="nav-container">
+            <li class="nav-item">
+              <a href="https://sumilraweng.github.io/SumilPage/">Home</a>
+            </li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="hamburger">
+          <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- -------------Cards------------ -->
+    <div class="title">
+      <h1>Employee cards</h1>
+    </div>
+    <div id="employee-cards"></div>
+
+    <!-- -------------Footer--------------- -->
+    <footer class="footer">
+      <div class="contact" id="contact">
+        <ul>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/sumiljain0498
+                    "
+              target="_blank"
+              ><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:mst1998sumil@gmail.com"
+              ><i class="fas fa-envelope-open fa-2x"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <i class="fas fa-copyright fa-1x"></i>
+        <span> sj.com | Designed by Sumil jain </span>
+      </div>
+    </footer>
+  </body>
 </html>
