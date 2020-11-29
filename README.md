@@ -16,4 +16,4 @@ The languages we used.
 
 HTML5 is used to create the markup of the websites. CSS3 is use to style the website and also make it responsive. Vanilla javascript is used to fetch the json data from online repository
 
-[LIVE DEMO](https://sumilraweng.github.io/employee-list/)>)
+[LIVE DEMO](https://sumilraweng.github.io/employee-list/)
