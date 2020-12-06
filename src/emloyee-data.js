@@ -18,6 +18,7 @@ async function getData(url) {
 }
 
 //here we use promises and send the json data to the creatCards function
+
 getData(url)
   .then((json) => {
     for (i in json) {

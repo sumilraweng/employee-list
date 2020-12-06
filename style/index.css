@@ -1,10 +1,13 @@
 body {
   margin: 0;
+  background: linear-gradient(to right, #200122, #6f0000);
+  color: white;
 }
 
 header {
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 .navigation-sec {
@@ -35,13 +38,13 @@ header {
 }
 
 .logo-image img {
-  width: 200px;
+  width: 250px;
   height: auto;
 }
 
 .nav-item a {
   text-decoration: none;
-  color: #3e424b;
+  color: #200122;
   font-size: 18px;
   font-weight: bold;
 }
@@ -60,6 +63,7 @@ header {
 
 .title {
   text-align: center;
+  color: white;
 }
 
 /* -----------------employee-cards-------------- */
@@ -73,26 +77,30 @@ header {
   margin: 50px auto;
 }
 
-@media (max-width: 768px) {
-  .employee-cards {
-    grid-template-columns: auto;
-  }
-}
 .card {
-  border: 1px solid black;
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034);
+  /* background: linear-gradient(to right, #333333, #dd1818); */
+  background-color: black;
+  color: white;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  transition: all 0.4s ease-out;
+}
+.card:hover {
+  transform: scale(1.1);
 }
 
 .content-setion {
-  text-align: justify;
+  text-align: center;
   padding: 5px;
+  margin: auto;
 }
 
 img {
-  width: 100%;
+  width: 300px;
   height: 300px;
+  border-radius: 100%;
 
   /* border-radius: 20px; */
 }
@@ -103,6 +111,7 @@ img {
   height: 200px;
   bottom: 0px;
   background-color: khaki;
+  color: #200122;
   margin: auto;
   display: flex;
   align-items: center;
@@ -118,9 +127,11 @@ img {
   color: #f8f8f8;
 }
 .contact li {
-  color: #f8f8f8;
   display: inline-block;
   padding: 10px;
+}
+i {
+  color: #200122;
 }
 .footer-bottom {
   width: 100%;
